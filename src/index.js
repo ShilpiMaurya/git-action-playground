@@ -7,6 +7,7 @@ const App = () => {
     <>
       <h1>Git-actions Playground</h1>
       <h2>let`s learn something new</h2>
+      <h3>CI and CD</h3>
     </>
   );
 };
