@@ -6,6 +6,7 @@ const App = () => {
   return (
     <>
       <h1>Git-actions Playground</h1>
+      <h2>let`s learn something new</h2>
     </>
   );
 };
