@@ -35,5 +35,7 @@ jobs:
         with:
           node-version: "10.x"
       - run: npm install
+      - run: git config --global user.email "meshilpi94@gmail.com"
+      - run: git config --global user.name "Shilpi Maurya"
       - run: npm run predeploy
       - run: npm run deploy
