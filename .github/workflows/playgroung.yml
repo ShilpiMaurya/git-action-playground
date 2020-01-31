@@ -35,7 +35,9 @@ jobs:
         with:
           node-version: "10.x"
       - run: npm install
-      - run: git config --global user.email "meshilpi94@gmail.com"
-      - run: git config --global user.name "ShilpiMaurya"
-      - run: npm run predeploy
-      - run: npm run deploy
+      - name: Build and Deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.GITHUB_REPO_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: build # The folder the action should deploy.
