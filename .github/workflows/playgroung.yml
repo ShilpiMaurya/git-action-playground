@@ -34,5 +34,6 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: "10.x"
-      - run: npm install gh-pages --save-dev
+      - run: npm install
+      - run: npm run predeploy
       - run: npm run deploy
