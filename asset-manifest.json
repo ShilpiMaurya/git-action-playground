@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/git-action-playground/static/css/main.5ecd60fb.chunk.css",
+    "main.js": "/git-action-playground/static/js/main.652a8677.chunk.js",
+    "main.js.map": "/git-action-playground/static/js/main.652a8677.chunk.js.map",
+    "runtime-main.js": "/git-action-playground/static/js/runtime-main.cc7cf38b.js",
+    "runtime-main.js.map": "/git-action-playground/static/js/runtime-main.cc7cf38b.js.map",
+    "static/js/2.f712c785.chunk.js": "/git-action-playground/static/js/2.f712c785.chunk.js",
+    "static/js/2.f712c785.chunk.js.map": "/git-action-playground/static/js/2.f712c785.chunk.js.map",
+    "index.html": "/git-action-playground/index.html",
+    "precache-manifest.5e03f8881cfac1b250888a5f724bc9ab.js": "/git-action-playground/precache-manifest.5e03f8881cfac1b250888a5f724bc9ab.js",
+    "service-worker.js": "/git-action-playground/service-worker.js",
+    "static/css/main.5ecd60fb.chunk.css.map": "/git-action-playground/static/css/main.5ecd60fb.chunk.css.map",
+    "static/js/2.f712c785.chunk.js.LICENSE.txt": "/git-action-playground/static/js/2.f712c785.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cc7cf38b.js",
+    "static/js/2.f712c785.chunk.js",
+    "static/css/main.5ecd60fb.chunk.css",
+    "static/js/main.652a8677.chunk.js"
+  ]
+}
